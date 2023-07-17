@@ -120,6 +120,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.table.TableColumnResize,
       window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
+      window.CKEditor5.sourceEditing.SourceEditing,
       StrapiMediaLib
     ],
     toolbar: [
@@ -131,7 +132,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'link', 'strapiMediaLib', 'mediaEmbed', 'blockQuote', 'insertTable', 'codeBlock',
         '|',
-        'bulletedList', 'numberedList', 'outdent', 'indent'
+        'bulletedList', 'numberedList', 'outdent', 'indent', 'sourceEditing',
     ],
     heading: {
       options: [
@@ -233,9 +234,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'alignment',
         '|',
-        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent',
-        '|',
-        'sourceEditing',
+        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent', 'sourceEditing',
       ],
       shouldNotGroupWhenFull: true
     },
